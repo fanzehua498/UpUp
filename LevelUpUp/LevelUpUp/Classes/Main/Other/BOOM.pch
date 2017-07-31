@@ -1,0 +1,22 @@
+//
+//  BOOM.pch
+//  来画图啊
+//
+//  Created by ydcy-mini on 2017/4/20.
+//  Copyright © 2017年 ydcy-mini. All rights reserved.
+//
+
+#ifndef BOOM_pch
+#define BOOM_pch
+
+#import "Tip.h"
+#import "MBProgressHUD+MJ.h"
+#import "Masonry.h"
+#import "Reachability.h"
+#import "AFNetworking.h"
+#import "Const.h"
+#import "Singleton.h"
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#endif /* BOOM_pch */

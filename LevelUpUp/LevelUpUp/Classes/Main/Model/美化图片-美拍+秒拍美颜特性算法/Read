@@ -1,0 +1,19 @@
+图片美白
+
+解决方案：
+    两个效果 两种解决方案
+    第一种：自己写算法修改像素点，调整亮度
+    第二种；第三方开发框架（openCV框架、GUPImage（openCV、openGL等等..），第三方付费框架（face++、百度图像处理框架等等..））
+
+实现步骤
+    第一种：自己写算法修改像素点，调整亮度，操作内存
+    第二种：第三方框架（OpenCV框架、GPUImage（openCV、openGL）第三方付费框架（face++、百度图像处理框架等等..））
+                第一点：OpenCV干嘛：
+                    人工智能、无人驾驶、人脸识别、人脸检测、物体识别、图像分割等等
+                支持的平台：iOS 、安卓、windows、Mac/Linux
+支持的语言：Java、c/c++、python、oc、swift、ruby、c#
+                第二点：为什么用OpenCV
+                    1，开源免费（核心算法、架构设计）
+                    2，跨平台（iOS、安卓、windows、Mac/Linux）
+                    3，跨语言（Java、c/c++、python、oc、swift、ruby、c#）
+                    4，性能高、稳定（1999年发布1.0版本->现在）

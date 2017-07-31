@@ -1,0 +1,20 @@
+1，识别静态人脸
+coreiImage iOS自带
+CIDetector & CIFaceFeature
+坑点：一、坐标转换 二、比例问题
+2.face++
+轻量级、易用
+3.openCV
+4.libfacedetection：包括正面和多视角检测 检测速度比openCV快2～3倍。检测率排第二
+
+二、动态人脸识别
+ARKit就使用了该技术。通过人脸识别获取人的脸部3D数据
+AVFoundation框架（ARKit的底层）
+iOS6.0 AVFoundation 可动态支持10个人脸识别 AVCaptureOutput 类型AVCaptureMedataOutput。不是输出一个静态图片／QuickTime影片，元数据
+来源AVCaptureMedataObject抽象类。当使用到人脸检测时，会出一个具体的字类类型，AVCaptureMedataFaceObject
+倾斜角：头部转向肩膀方向
+偏转角：人脸绕y轴旋转
+
+for in、经典for循环和EnumerateObjectsUsingBlock 的比较
+
+
