@@ -20,6 +20,8 @@
 #define SCREENWidth [UIScreen mainScreen].bounds.size.width
 #define SCREENHeight [UIScreen mainScreen].bounds.size.height
 
+#define kThemColor [UIColor colorWithHexString:@"#c6aa69"]
+
 extern NSNumber *kUID;
 
 extern NSString *const badgNuber;
