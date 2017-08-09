@@ -87,6 +87,8 @@
 		F75E058C1F2EFBA60051D14E /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = F75E058B1F2EFBA60051D14E /* Reachability.m */; };
 		F75E058F1F2EFCC10051D14E /* FZHTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = F75E058E1F2EFCC10051D14E /* FZHTabBarController.m */; };
 		F75E05921F2F15A00051D14E /* UIColor+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = F75E05911F2F15A00051D14E /* UIColor+Extension.m */; };
+		F7F4ED0A1F3AC4DF00F6DF06 /* SolveQuestion.m in Sources */ = {isa = PBXBuildFile; fileRef = F7F4ED091F3AC4DF00F6DF06 /* SolveQuestion.m */; };
+		F7FF1DDB1F3021A800915481 /* NSObject+ThemeExtention.m in Sources */ = {isa = PBXBuildFile; fileRef = F7FF1DDA1F3021A800915481 /* NSObject+ThemeExtention.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -264,6 +266,10 @@
 		F75E058E1F2EFCC10051D14E /* FZHTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FZHTabBarController.m; sourceTree = "<group>"; };
 		F75E05901F2F15A00051D14E /* UIColor+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Extension.h"; sourceTree = "<group>"; };
 		F75E05911F2F15A00051D14E /* UIColor+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Extension.m"; sourceTree = "<group>"; };
+		F7F4ED081F3AC4DF00F6DF06 /* SolveQuestion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SolveQuestion.h; sourceTree = "<group>"; };
+		F7F4ED091F3AC4DF00F6DF06 /* SolveQuestion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SolveQuestion.m; sourceTree = "<group>"; };
+		F7FF1DD91F3021A800915481 /* NSObject+ThemeExtention.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+ThemeExtention.h"; sourceTree = "<group>"; };
+		F7FF1DDA1F3021A800915481 /* NSObject+ThemeExtention.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+ThemeExtention.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -422,6 +428,8 @@
 				F75E05911F2F15A00051D14E /* UIColor+Extension.m */,
 				F75E03E41F2ECF380051D14E /* NSObject+KVO.h */,
 				F75E03E51F2ECF380051D14E /* NSObject+KVO.m */,
+				F7FF1DD91F3021A800915481 /* NSObject+ThemeExtention.h */,
+				F7FF1DDA1F3021A800915481 /* NSObject+ThemeExtention.m */,
 			);
 			path = Category;
 			sourceTree = "<group>";
@@ -886,6 +894,8 @@
 			children = (
 				F75E05381F2ED25A0051D14E /* Dog.h */,
 				F75E05391F2ED25A0051D14E /* Dog.m */,
+				F7F4ED081F3AC4DF00F6DF06 /* SolveQuestion.h */,
+				F7F4ED091F3AC4DF00F6DF06 /* SolveQuestion.m */,
 			);
 			path = test;
 			sourceTree = "<group>";
@@ -1225,6 +1235,7 @@
 				F75E054C1F2ED2690051D14E /* UILabel+FZHLabel.m in Sources */,
 				F75E05481F2ED2690051D14E /* FZHRunLoop.m in Sources */,
 				F75E03FE1F2ECF760051D14E /* FZHBaiduMapView.m in Sources */,
+				F7F4ED0A1F3AC4DF00F6DF06 /* SolveQuestion.m in Sources */,
 				F75E041C1F2ECFFD0051D14E /* CoinView.m in Sources */,
 				F75E05841F2ED2DA0051D14E /* Tip.m in Sources */,
 				F75E03EC1F2ECF520051D14E /* FZHFunction.m in Sources */,
@@ -1257,6 +1268,7 @@
 				F75E04231F2ED0050051D14E /* FZHAppsVC.m in Sources */,
 				F75E05661F2ED2830051D14E /* MNWheelView.m in Sources */,
 				F75E05671F2ED2830051D14E /* TwitterView.m in Sources */,
+				F7FF1DDB1F3021A800915481 /* NSObject+ThemeExtention.m in Sources */,
 				F75E045E1F2ED09F0051D14E /* FZHAudioViewController.m in Sources */,
 				F75E053A1F2ED25A0051D14E /* Dog.m in Sources */,
 				F75E05361F2ED2400051D14E /* FzhPlayerViewController.m in Sources */,

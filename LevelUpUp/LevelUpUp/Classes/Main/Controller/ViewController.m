@@ -7,7 +7,7 @@
 //
 
 #import "ViewController.h"
-
+#import "SolveQuestion.h"
 @interface ViewController ()
 
 @end
@@ -17,6 +17,9 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    SolveQuestion *s = [SolveQuestion new];
+     
+    NSLog(@"%ld",[s whileSum:[NSMutableArray arrayWithObjects:@(1),@(2),@(3),@(4), nil]]);
 }
 
 
