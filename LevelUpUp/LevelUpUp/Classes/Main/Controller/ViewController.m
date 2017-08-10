@@ -20,6 +20,7 @@
     SolveQuestion *s = [SolveQuestion new];
      
     NSLog(@"%ld",[s whileSum:[NSMutableArray arrayWithObjects:@(1),@(2),@(3),@(4), nil]]);
+    [s addArrOne:@[@"1",@"2",@"3"] arrTwo:@[@"7",@"8",@"9",@"4",@"5"]];
 }
 
 

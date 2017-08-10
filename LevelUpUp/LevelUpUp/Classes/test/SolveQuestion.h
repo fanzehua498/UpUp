@@ -10,4 +10,5 @@
 
 @interface SolveQuestion : NSObject
 - (NSInteger)whileSum:(NSMutableArray *)number;
+- (void)addArrOne:(NSArray *)arr1 arrTwo:(NSArray *)arr2;
 @end
