@@ -1,0 +1,25 @@
+<b>定义粗体文本</b>
+<big>定义大号字</big>
+<i>定义斜体字</i>
+<em>定义着重文字</em>
+<small>定义小号字体</small>
+<strong>定义加重语气</strong>
+你么好<sub>定义下标字</sub>
+大家好<sup>定义上标字</sup>
+<ins>定义插入字</ins>
+<del>定义删除字</del>
+
+样式
+<style>:定义样式
+<link>：资源引用
+
+样式属性
+rel = "stylesheet":外部样式表
+type = “text/css”：引入文档的类型
+margin-left：边距
+
+链接
+文本链接
+图片链接
+
+属性：

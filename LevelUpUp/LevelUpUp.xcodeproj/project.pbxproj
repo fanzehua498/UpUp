@@ -87,6 +87,7 @@
 		F75E058C1F2EFBA60051D14E /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = F75E058B1F2EFBA60051D14E /* Reachability.m */; };
 		F75E058F1F2EFCC10051D14E /* FZHTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = F75E058E1F2EFCC10051D14E /* FZHTabBarController.m */; };
 		F75E05921F2F15A00051D14E /* UIColor+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = F75E05911F2F15A00051D14E /* UIColor+Extension.m */; };
+		F79A16741F45889E000E9B6A /* HTML5 in Resources */ = {isa = PBXBuildFile; fileRef = F79A16731F45889E000E9B6A /* HTML5 */; };
 		F7F4ED0A1F3AC4DF00F6DF06 /* SolveQuestion.m in Sources */ = {isa = PBXBuildFile; fileRef = F7F4ED091F3AC4DF00F6DF06 /* SolveQuestion.m */; };
 		F7FF1DDB1F3021A800915481 /* NSObject+ThemeExtention.m in Sources */ = {isa = PBXBuildFile; fileRef = F7FF1DDA1F3021A800915481 /* NSObject+ThemeExtention.m */; };
 /* End PBXBuildFile section */
@@ -266,6 +267,7 @@
 		F75E058E1F2EFCC10051D14E /* FZHTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FZHTabBarController.m; sourceTree = "<group>"; };
 		F75E05901F2F15A00051D14E /* UIColor+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Extension.h"; sourceTree = "<group>"; };
 		F75E05911F2F15A00051D14E /* UIColor+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Extension.m"; sourceTree = "<group>"; };
+		F79A16731F45889E000E9B6A /* HTML5 */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = HTML5; sourceTree = "<group>"; };
 		F7F4ED081F3AC4DF00F6DF06 /* SolveQuestion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SolveQuestion.h; sourceTree = "<group>"; };
 		F7F4ED091F3AC4DF00F6DF06 /* SolveQuestion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SolveQuestion.m; sourceTree = "<group>"; };
 		F7FF1DD91F3021A800915481 /* NSObject+ThemeExtention.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+ThemeExtention.h"; sourceTree = "<group>"; };
@@ -326,6 +328,7 @@
 		F75E03931F2EC5060051D14E = {
 			isa = PBXGroup;
 			children = (
+				F79A16731F45889E000E9B6A /* HTML5 */,
 				F75E039E1F2EC5070051D14E /* LevelUpUp */,
 				F75E03B81F2EC5080051D14E /* LevelUpUpTests */,
 				F75E03C31F2EC5080051D14E /* LevelUpUpUITests */,
@@ -1047,6 +1050,7 @@
 				F75E05761F2ED29C0051D14E /* second.jpeg in Resources */,
 				F75E05751F2ED29C0051D14E /* fourth.jpeg in Resources */,
 				F75E04191F2ECFEF0051D14E /* Read in Resources */,
+				F79A16741F45889E000E9B6A /* HTML5 in Resources */,
 				F75E03AF1F2EC5080051D14E /* LaunchScreen.storyboard in Resources */,
 				F75E05791F2ED29C0051D14E /* third.jpeg in Resources */,
 				F75E04431F2ED0570051D14E /* LaunchImage.jpeg in Resources */,
