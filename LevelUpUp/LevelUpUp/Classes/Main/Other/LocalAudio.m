@@ -52,10 +52,11 @@ SingletonM(LocalAudio)
     if (err) {
         NSLog(@"%@",err);
     }
+    
     self.recorder.delegate = self;
     [self.recorder prepareToRecord];
     [self.recorder record];
-
+    
    
 
 }

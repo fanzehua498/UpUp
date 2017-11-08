@@ -12,6 +12,9 @@
 
 #import "FZHCircleView.h"
 #import "CircularProgressView.h"
+#import "ShapAnmaintionView.h"
+#import "ToolFactory.h"
+
 @interface BlueToothViewController ()
 
 
@@ -31,7 +34,7 @@
      */
     MNWheelView *mnview = [[MNWheelView alloc] init];
     [mnview setFrame:CGRectMake(100, 100, 200, 300)];
-    mnview.imageNames = @[@"1.jpg",@"2.jpg",@"3.jpg",@"4.jpg"];
+//    mnview.imageNames = @[@"1.jpg",@"2.jpg",@"3.jpg",@"4.jpg"];
 //    [self.view addSubview:mnview];
     self.view.backgroundColor = [UIColor whiteColor];
     [self performSelector:@selector(logSomeThing:) withObject:self.ssss afterDelay:1.0];
@@ -43,11 +46,11 @@
 
 
     FZHCircleView *circleView = [[FZHCircleView alloc] initWithFrame:CGRectMake(100, 180, 80, 80)];
-    [circleView setImageUrl:@"thereFace"];
-//    [self.view addSubview:circleView];
-
+    [circleView setImageUrl:@"eighth.jpg"];
+    [self.view addSubview:circleView];
+    [circleView updateProgressWithNumber:10];
     CircularProgressView *v = [[CircularProgressView alloc] initWithFrame:CGRectMake(80, 180, 60, 60) backColor:[UIColor grayColor] progressColor:[UIColor redColor] lineWidth:5 processValue:0 style:@"two"];
-    [self.view addSubview:v];
+//    [self.view addSubview:v];
     v.timeDownLabel.textColor = [UIColor blueColor];
     v.timeDownLabel.frame = CGRectMake(0, 20, 60, 20);
     v.userInteractionEnabled = NO;
@@ -56,6 +59,23 @@
     v.layer.borderColor =  [UIColor colorWithRed:226.0f/255.0f green:226.0f/255.0f blue:229.0f/255.0f alpha:1].CGColor;
     v.layer.cornerRadius = 30;
     v.layer.masksToBounds = YES;
+    
+    ShapAnmaintionView *shaV = [[ShapAnmaintionView alloc] initWithFrame:CGRectMake(0, 100, 375, 400)];
+    [shaV wave];
+    shaV.waveSpeed = 7.f;
+
+    shaV.waveAmplitude = 50.0f;
+    
+    shaV.waveColor = [UIColor colorWithRed:1 green:1 blue:1 alpha:0.5];
+    [self.view addSubview:shaV];
+    ShapAnmaintionView *shaV1 = [[ShapAnmaintionView alloc] initWithFrame:CGRectMake(0, 100, 375, 400)];
+    [shaV1 wave];
+    shaV1.waveSpeed = 9.f;
+//
+    shaV1.waveAmplitude = 10.0f;
+
+    shaV1.waveColor = [UIColor whiteColor];
+//    [self.view addSubview:shaV1];
 }
 int test(int x, int y){
     x = x + y;//x = 3 + 10

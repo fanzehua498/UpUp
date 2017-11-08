@@ -7,7 +7,8 @@
 //
 
 #import "AppDelegate.h"
-
+#import "PaUrlViewController.h"
+#import "LearnTableViewController.h"
 @interface AppDelegate ()
 
 @end
@@ -17,6 +18,9 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    LearnTableViewController *vc = [[LearnTableViewController alloc] init];
+    UINavigationController *na = [[UINavigationController alloc] initWithRootViewController:vc];
+    self.window.rootViewController = na;
     return YES;
 }
 

@@ -10,7 +10,9 @@
 #import "LocalAudio.h"
 #import <AVFoundation/AVFoundation.h>
 @interface FZHAudioViewController ()
-
+{
+    AudioQueueRef _audioQueue;
+}
 @property (nonatomic, strong) LocalAudio  *audio;
 @property (nonatomic, strong) UIView  *voiceView;
 @property (nonatomic, weak) NSTimer   *voicetime;
@@ -37,7 +39,7 @@
     [open addTarget:self action:@selector(btnopenRecord) forControlEvents:UIControlEventTouchUpInside];
     [self.view addSubview:open];
     
-
+    _audioQueue = NULL;
 }
 -(void)btnstartRecord{
     NSLog(@"start");
@@ -93,6 +95,22 @@
 -(void)btnopenRecord{
     [self.audio openRecord];
 }
+
+-(void)getVoLevel{
+    UInt32 enabledLevelMeter = true;
+    
+    AudioQueueSetProperty(_audioQueue, kAudioQueueProperty_EnableLevelMetering, &enabledLevelMeter, sizeof(UInt32));
+    
+    
+    AudioQueueLevelMeterState levelMeter;
+    UInt32 levelMeterSize = sizeof(AudioQueueLevelMeterState);
+    AudioQueueGetProperty(_audioQueue, kAudioQueueProperty_CurrentLevelMeterDB, &levelMeter, &levelMeterSize);
+    
+    double volume = levelMeter.mAveragePower;
+    NSLog(@"%lf",volume);
+}
+
+
 -(LocalAudio *)audio
 {
     if (!_audio) {
@@ -128,6 +146,7 @@
         rect.size.width = width;
         self.voiceView.frame = rect;
     }];
+    [self getVoLevel];
 }
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];

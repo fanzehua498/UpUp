@@ -25,5 +25,7 @@ pod 'RegexKitLite', '~> 4.0'
 pod 'IQKeyboardManager', '~> 3.3.5'
 pod 'Masonry'
 pod 'FMDB'
+pod 'UMengAnalytics-NO-IDFA'
+#pod 'Charts’, ’~> 3.0.1’
 
 end

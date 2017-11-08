@@ -26,6 +26,7 @@ PODS:
   - SDWebImage (3.7.6):
     - SDWebImage/Core (= 3.7.6)
   - SDWebImage/Core (3.7.6)
+  - UMengAnalytics-NO-IDFA (4.2.5)
 
 DEPENDENCIES:
   - AFNetworking (~> 3.1.0)
@@ -37,6 +38,7 @@ DEPENDENCIES:
   - MJRefresh (~> 3.1.0)
   - RegexKitLite (~> 4.0)
   - SDWebImage (~> 3.7.5)
+  - UMengAnalytics-NO-IDFA
 
 SPEC CHECKSUMS:
   AFNetworking: 5e0e199f73d8626b11e79750991f5d173d1f8b67
@@ -48,7 +50,8 @@ SPEC CHECKSUMS:
   MJRefresh: b96cdb21c4aa75a7b07654311ab2f315c497e806
   RegexKitLite: c0e4c12e6e7de0769f3a3ed679f0f61604170661
   SDWebImage: c325cf02c30337336b95beff20a13df489ec0ec9
+  UMengAnalytics-NO-IDFA: 16666e32edce5be44ae5b14aaaa7f3582e09d6ab
 
-PODFILE CHECKSUM: c7a560a6190887faacbf697cff93a1a26b97ce6c
+PODFILE CHECKSUM: 0ea45fa0d0ed9a20f3731f75b2643ebcf4390aea
 
-COCOAPODS: 1.2.1
+COCOAPODS: 1.3.1

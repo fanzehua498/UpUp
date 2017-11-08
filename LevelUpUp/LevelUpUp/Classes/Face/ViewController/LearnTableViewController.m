@@ -16,7 +16,10 @@
 #import "FZHQRCodeViewController.h"
 #import "FZHMyManagerCameraVC.h"
 #import "FZHAppsVC.h"
+#import <UMMobClick/MobClick.h>
 #import <WebKit/WebKit.h>
+#import "CardViewController.h"
+#import "ImageViewAnimationController.h"
 @interface LearnTableViewController ()
 
 @property (nonatomic, strong) NSArray  *rowArr;
@@ -113,7 +116,7 @@
 {
     if (!_rowArr) {
 
-        _rowArr = @[@"Face",@"Map",@"Audio",@"blueTooth",@"runtime",@"FZHCameraViewController",@"FZHQRCodeViewController",@"FZHMyManagerCameraVC",@"FZHAppsVC"];
+        _rowArr = @[@"Face",@"Map",@"Audio",@"blueTooth",@"runtime",@"FZHCameraViewController",@"FZHQRCodeViewController",@"FZHMyManagerCameraVC",@"FZHAppsVC",@"CardViewController",@"ImageViewAnimationController"];
     }
     return _rowArr;
 }
@@ -130,6 +133,10 @@
     return self.rowArr.count;
 }
 
+-(CGFloat)tableView:(UITableView *)tableView heightForFooterInSection:(NSInteger)section
+{
+    return 30;
+}
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
     static NSString *cellId = @"cellId";
@@ -197,6 +204,12 @@
         [self.navigationController pushViewController:vc animated:YES];
     }if (indexPath.row == 8) {
         FZHAppsVC *vc = [[FZHAppsVC alloc] init];
+        [self.navigationController pushViewController:vc animated:YES];
+    }if (indexPath.row == 9) {
+        CardViewController *vc = [[CardViewController alloc] init];
+        [self.navigationController pushViewController:vc animated:YES];
+    }if (indexPath.row == 10) {
+        ImageViewAnimationController *vc = [[ImageViewAnimationController alloc] init];
         [self.navigationController pushViewController:vc animated:YES];
     }
 

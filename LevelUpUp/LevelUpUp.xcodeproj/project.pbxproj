@@ -10,6 +10,18 @@
 		1613BE70202BD4C0E9CA70CC /* libPods-LevelUpUp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9893F6694B08ED0A3F1A2752 /* libPods-LevelUpUp.a */; };
 		41620F478164D111713A61AA /* libPods-LevelUpUpUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B733D87BD360BABE34621B6 /* libPods-LevelUpUpUITests.a */; };
 		B5EB36D1C046A5295406BD51 /* libPods-LevelUpUpTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A5C51ADBC84D70234DE14EC7 /* libPods-LevelUpUpTests.a */; };
+		F61E90541FABFC2600F30A3C /* CacheResearch.m in Sources */ = {isa = PBXBuildFile; fileRef = F61E90531FABFC2600F30A3C /* CacheResearch.m */; };
+		F63754361F8B457200FE6394 /* ScollerCard.m in Sources */ = {isa = PBXBuildFile; fileRef = F63754351F8B457200FE6394 /* ScollerCard.m */; };
+		F63754391F8B47F900FE6394 /* CustumCardLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = F63754381F8B47F900FE6394 /* CustumCardLayout.m */; };
+		F637543D1F8B582F00FE6394 /* UIView+FFFView.m in Sources */ = {isa = PBXBuildFile; fileRef = F637543C1F8B582F00FE6394 /* UIView+FFFView.m */; };
+		F63754411F8B621400FE6394 /* CustumCardCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F637543F1F8B621400FE6394 /* CustumCardCell.m */; };
+		F63754421F8B621400FE6394 /* CustumCardCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F63754401F8B621400FE6394 /* CustumCardCell.xib */; };
+		F63754451F8B669F00FE6394 /* CardViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F63754441F8B669F00FE6394 /* CardViewController.m */; };
+		F6467C371F6DA73200D60E74 /* testView.m in Sources */ = {isa = PBXBuildFile; fileRef = F6467C361F6DA73200D60E74 /* testView.m */; };
+		F64CBF461F475BD20036AF77 /* PaUrlViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F64CBF451F475BD20036AF77 /* PaUrlViewController.m */; };
+		F657A88D1FB2ED2200A3FC8F /* EmitView.m in Sources */ = {isa = PBXBuildFile; fileRef = F657A88C1FB2ED2200A3FC8F /* EmitView.m */; };
+		F69BDD0F1F8F062800A488C2 /* ImageViewAnimationController.m in Sources */ = {isa = PBXBuildFile; fileRef = F69BDD0E1F8F062800A488C2 /* ImageViewAnimationController.m */; };
+		F6E98DC31F7F7BD700F7F1A6 /* ShapAnmaintionView.m in Sources */ = {isa = PBXBuildFile; fileRef = F6E98DC21F7F7BD700F7F1A6 /* ShapAnmaintionView.m */; };
 		F75E03AA1F2EC5070051D14E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F75E03A81F2EC5070051D14E /* Main.storyboard */; };
 		F75E03AC1F2EC5080051D14E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F75E03AB1F2EC5080051D14E /* Assets.xcassets */; };
 		F75E03AF1F2EC5080051D14E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F75E03AD1F2EC5080051D14E /* LaunchScreen.storyboard */; };
@@ -119,6 +131,31 @@
 		A5C51ADBC84D70234DE14EC7 /* libPods-LevelUpUpTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-LevelUpUpTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		ADB7CF14F3F347E38B53D412 /* Pods-LevelUpUpTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LevelUpUpTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LevelUpUpTests/Pods-LevelUpUpTests.debug.xcconfig"; sourceTree = "<group>"; };
 		B964FE500E8E6901E93D06FE /* Pods-LevelUpUp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LevelUpUp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LevelUpUp/Pods-LevelUpUp.debug.xcconfig"; sourceTree = "<group>"; };
+		F61E90521FABFC2600F30A3C /* CacheResearch.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CacheResearch.h; sourceTree = "<group>"; };
+		F61E90531FABFC2600F30A3C /* CacheResearch.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CacheResearch.m; sourceTree = "<group>"; };
+		F63754341F8B457200FE6394 /* ScollerCard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScollerCard.h; sourceTree = "<group>"; };
+		F63754351F8B457200FE6394 /* ScollerCard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScollerCard.m; sourceTree = "<group>"; };
+		F63754371F8B47F900FE6394 /* CustumCardLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustumCardLayout.h; sourceTree = "<group>"; };
+		F63754381F8B47F900FE6394 /* CustumCardLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustumCardLayout.m; sourceTree = "<group>"; };
+		F637543B1F8B582F00FE6394 /* UIView+FFFView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+FFFView.h"; sourceTree = "<group>"; };
+		F637543C1F8B582F00FE6394 /* UIView+FFFView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+FFFView.m"; sourceTree = "<group>"; };
+		F637543E1F8B621400FE6394 /* CustumCardCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustumCardCell.h; sourceTree = "<group>"; };
+		F637543F1F8B621400FE6394 /* CustumCardCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustumCardCell.m; sourceTree = "<group>"; };
+		F63754401F8B621400FE6394 /* CustumCardCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CustumCardCell.xib; sourceTree = "<group>"; };
+		F63754431F8B669F00FE6394 /* CardViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CardViewController.h; sourceTree = "<group>"; };
+		F63754441F8B669F00FE6394 /* CardViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CardViewController.m; sourceTree = "<group>"; };
+		F646536A1F7F2BD5005B79B9 /* ToolFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ToolFactory.h; sourceTree = "<group>"; };
+		F646536B1F7F2C08005B79B9 /* ToolProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ToolProtocol.h; sourceTree = "<group>"; };
+		F6467C351F6DA73200D60E74 /* testView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = testView.h; sourceTree = "<group>"; };
+		F6467C361F6DA73200D60E74 /* testView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = testView.m; sourceTree = "<group>"; };
+		F64CBF441F475BD20036AF77 /* PaUrlViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PaUrlViewController.h; sourceTree = "<group>"; };
+		F64CBF451F475BD20036AF77 /* PaUrlViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PaUrlViewController.m; sourceTree = "<group>"; };
+		F657A88B1FB2ED2200A3FC8F /* EmitView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EmitView.h; sourceTree = "<group>"; };
+		F657A88C1FB2ED2200A3FC8F /* EmitView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EmitView.m; sourceTree = "<group>"; };
+		F69BDD0D1F8F062800A488C2 /* ImageViewAnimationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageViewAnimationController.h; sourceTree = "<group>"; };
+		F69BDD0E1F8F062800A488C2 /* ImageViewAnimationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageViewAnimationController.m; sourceTree = "<group>"; };
+		F6E98DC11F7F7BD700F7F1A6 /* ShapAnmaintionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShapAnmaintionView.h; sourceTree = "<group>"; };
+		F6E98DC21F7F7BD700F7F1A6 /* ShapAnmaintionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShapAnmaintionView.m; sourceTree = "<group>"; };
 		F75E039C1F2EC5070051D14E /* LevelUpUp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LevelUpUp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F75E03A91F2EC5070051D14E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F75E03AB1F2EC5080051D14E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -325,6 +362,35 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		F61E90511FABFBC700F30A3C /* cache */ = {
+			isa = PBXGroup;
+			children = (
+				F61E90521FABFC2600F30A3C /* CacheResearch.h */,
+				F61E90531FABFC2600F30A3C /* CacheResearch.m */,
+			);
+			path = cache;
+			sourceTree = "<group>";
+		};
+		F64653671F7F2B2C005B79B9 /* 工厂 */ = {
+			isa = PBXGroup;
+			children = (
+				F646536A1F7F2BD5005B79B9 /* ToolFactory.h */,
+				F646536B1F7F2C08005B79B9 /* ToolProtocol.h */,
+			);
+			path = "工厂";
+			sourceTree = "<group>";
+		};
+		F64CBF431F475B9E0036AF77 /* papapa */ = {
+			isa = PBXGroup;
+			children = (
+				F64CBF441F475BD20036AF77 /* PaUrlViewController.h */,
+				F64CBF451F475BD20036AF77 /* PaUrlViewController.m */,
+				F6467C351F6DA73200D60E74 /* testView.h */,
+				F6467C361F6DA73200D60E74 /* testView.m */,
+			);
+			path = papapa;
+			sourceTree = "<group>";
+		};
 		F75E03931F2EC5060051D14E = {
 			isa = PBXGroup;
 			children = (
@@ -389,6 +455,9 @@
 		F75E03D21F2ECEAF0051D14E /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				F61E90511FABFBC700F30A3C /* cache */,
+				F64653671F7F2B2C005B79B9 /* 工厂 */,
+				F64CBF431F475B9E0036AF77 /* papapa */,
 				F75E05371F2ED25A0051D14E /* test */,
 				F75E052C1F2ED2400051D14E /* player */,
 				F75E04771F2ED1640051D14E /* runtime消息机制 */,
@@ -433,6 +502,8 @@
 				F75E03E51F2ECF380051D14E /* NSObject+KVO.m */,
 				F7FF1DD91F3021A800915481 /* NSObject+ThemeExtention.h */,
 				F7FF1DDA1F3021A800915481 /* NSObject+ThemeExtention.m */,
+				F637543B1F8B582F00FE6394 /* UIView+FFFView.h */,
+				F637543C1F8B582F00FE6394 /* UIView+FFFView.m */,
 			);
 			path = Category;
 			sourceTree = "<group>";
@@ -533,6 +604,15 @@
 				F75E044F1F2ED0890051D14E /* FZHAnimationLable.m */,
 				F75E041A1F2ECFFD0051D14E /* CoinView.h */,
 				F75E041B1F2ECFFD0051D14E /* CoinView.m */,
+				F6E98DC11F7F7BD700F7F1A6 /* ShapAnmaintionView.h */,
+				F6E98DC21F7F7BD700F7F1A6 /* ShapAnmaintionView.m */,
+				F63754341F8B457200FE6394 /* ScollerCard.h */,
+				F63754351F8B457200FE6394 /* ScollerCard.m */,
+				F637543E1F8B621400FE6394 /* CustumCardCell.h */,
+				F637543F1F8B621400FE6394 /* CustumCardCell.m */,
+				F63754401F8B621400FE6394 /* CustumCardCell.xib */,
+				F63754371F8B47F900FE6394 /* CustumCardLayout.h */,
+				F63754381F8B47F900FE6394 /* CustumCardLayout.m */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -608,6 +688,10 @@
 			children = (
 				F75E040A1F2ECFDE0051D14E /* BlueToothViewController.h */,
 				F75E040B1F2ECFDE0051D14E /* BlueToothViewController.m */,
+				F63754431F8B669F00FE6394 /* CardViewController.h */,
+				F63754441F8B669F00FE6394 /* CardViewController.m */,
+				F69BDD0D1F8F062800A488C2 /* ImageViewAnimationController.h */,
+				F69BDD0E1F8F062800A488C2 /* ImageViewAnimationController.m */,
 			);
 			path = ViewController;
 			sourceTree = "<group>";
@@ -888,6 +972,8 @@
 		F75E05341F2ED2400051D14E /* View */ = {
 			isa = PBXGroup;
 			children = (
+				F657A88B1FB2ED2200A3FC8F /* EmitView.h */,
+				F657A88C1FB2ED2200A3FC8F /* EmitView.m */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -1058,6 +1144,7 @@
 				F75E03AC1F2EC5080051D14E /* Assets.xcassets in Resources */,
 				F75E05771F2ED29C0051D14E /* seventh.jpeg in Resources */,
 				F75E05741F2ED29C0051D14E /* fifth.jpeg in Resources */,
+				F63754421F8B621400FE6394 /* CustumCardCell.xib in Resources */,
 				F75E03AA1F2EC5070051D14E /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -1085,13 +1172,16 @@
 			files = (
 			);
 			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
 			);
 			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LevelUpUp-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
 		6A1B45EA6A427607F610B418 /* [CP] Copy Pods Resources */ = {
@@ -1100,9 +1190,13 @@
 			files = (
 			);
 			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-LevelUpUp/Pods-LevelUpUp-resources.sh",
+				"${PODS_ROOT}/IQKeyboardManager/IQKeyBoardManager/Resources/IQKeyboardManager.bundle",
+				"${PODS_ROOT}/MJRefresh/MJRefresh/MJRefresh.bundle",
 			);
 			name = "[CP] Copy Pods Resources";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -1130,13 +1224,16 @@
 			files = (
 			);
 			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
 			);
 			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LevelUpUpTests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
 		9CCFFD27B37B5C61367DA0AD /* [CP] Embed Pods Frameworks */ = {
@@ -1190,13 +1287,16 @@
 			files = (
 			);
 			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
 			);
 			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LevelUpUpUITests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
 		E9EF488D92CBDD9937CA2946 /* [CP] Embed Pods Frameworks */ = {
@@ -1227,6 +1327,7 @@
 				F75E048D1F2ED1A40051D14E /* FZHPerson.m in Sources */,
 				F75E05611F2ED2830051D14E /* CircularProgressView.m in Sources */,
 				F75E05681F2ED2830051D14E /* UIImage+FZHImage.m in Sources */,
+				F63754411F8B621400FE6394 /* CustumCardCell.m in Sources */,
 				F75E05641F2ED2830051D14E /* FzhTextField.m in Sources */,
 				F75E048E1F2ED1A40051D14E /* FZHPersonKvo.m in Sources */,
 				F75E04031F2ECF760051D14E /* FZHBaiduFactory.m in Sources */,
@@ -1239,13 +1340,16 @@
 				F75E054C1F2ED2690051D14E /* UILabel+FZHLabel.m in Sources */,
 				F75E05481F2ED2690051D14E /* FZHRunLoop.m in Sources */,
 				F75E03FE1F2ECF760051D14E /* FZHBaiduMapView.m in Sources */,
+				F6E98DC31F7F7BD700F7F1A6 /* ShapAnmaintionView.m in Sources */,
 				F7F4ED0A1F3AC4DF00F6DF06 /* SolveQuestion.m in Sources */,
+				F64CBF461F475BD20036AF77 /* PaUrlViewController.m in Sources */,
 				F75E041C1F2ECFFD0051D14E /* CoinView.m in Sources */,
 				F75E05841F2ED2DA0051D14E /* Tip.m in Sources */,
 				F75E03EC1F2ECF520051D14E /* FZHFunction.m in Sources */,
 				F75E058C1F2EFBA60051D14E /* Reachability.m in Sources */,
 				F75E05471F2ED2690051D14E /* FZHAlertView.m in Sources */,
 				F75E044A1F2ED0570051D14E /* FZHMyManagerCameraVC.m in Sources */,
+				F63754451F8B669F00FE6394 /* CardViewController.m in Sources */,
 				F75E044D1F2ED0580051D14E /* PreviewView.m in Sources */,
 				F75E058F1F2EFCC10051D14E /* FZHTabBarController.m in Sources */,
 				F75E044B1F2ED0570051D14E /* FZHQRCodeViewController.m in Sources */,
@@ -1260,9 +1364,11 @@
 				F75E05491F2ED2690051D14E /* ImageTool.m in Sources */,
 				F75E05691F2ED2830051D14E /* UITableView+FZHCacheHeight.m in Sources */,
 				F75E03E31F2ECEB00051D14E /* main.m in Sources */,
+				F69BDD0F1F8F062800A488C2 /* ImageViewAnimationController.m in Sources */,
 				F75E03FF1F2ECF760051D14E /* FZHGaodeMapView.m in Sources */,
 				F75E05631F2ED2830051D14E /* FZHCircleView.m in Sources */,
 				F75E04501F2ED0890051D14E /* FZHAnimationLable.m in Sources */,
+				F6467C371F6DA73200D60E74 /* testView.m in Sources */,
 				F75E04171F2ECFEF0051D14E /* FZHImageProcessUtils.m in Sources */,
 				F75E04481F2ED0570051D14E /* FZHCameraManager.m in Sources */,
 				F75E040C1F2ECFDE0051D14E /* FFBlueToothManager.m in Sources */,
@@ -1279,10 +1385,15 @@
 				F75E03E11F2ECEB00051D14E /* ViewController.m in Sources */,
 				F75E05351F2ED2400051D14E /* FZHPlayerTool.m in Sources */,
 				F75E05651F2ED2830051D14E /* FZHWheelView.m in Sources */,
+				F61E90541FABFC2600F30A3C /* CacheResearch.m in Sources */,
+				F637543D1F8B582F00FE6394 /* UIView+FFFView.m in Sources */,
+				F63754361F8B457200FE6394 /* ScollerCard.m in Sources */,
+				F657A88D1FB2ED2200A3FC8F /* EmitView.m in Sources */,
 				F75E04441F2ED0570051D14E /* FaceViewController.m in Sources */,
 				F75E048C1F2ED1A40051D14E /* FZHCreateClasOrMethod.m in Sources */,
 				F75E04181F2ECFEF0051D14E /* FZHLoveView.m in Sources */,
 				F75E048F1F2ED1A40051D14E /* NSURL+FZHUrl.m in Sources */,
+				F63754391F8B47F900FE6394 /* CustumCardLayout.m in Sources */,
 				F75E03ED1F2ECF520051D14E /* KnowledgePoint.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
